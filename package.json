@@ -38,7 +38,6 @@
     "mkdirp": "^0.5.1",
     "rimraf": "^2.6.3"
   },
-  "deprecated": false,
   "description": "Build & Deployment View Framework",
   "homepage": "https://github.com/tylerjfields/distruct#readme",
   "keywords": [
@@ -58,5 +57,5 @@
     "type": "git",
     "url": "git+https://github.com/tylerjfields/distruct.git"
   },
-  "version": "1.0.6"
+  "version": "1.0.7"
 }

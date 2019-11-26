@@ -1,0 +1,62 @@
+{
+  "_from": "distruct",
+  "_id": "distruct@1.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-UFTGzCG9as0xiBxStkt/2ZrIe4ZQGserl1uR6sMEVHcSrrGYQTACrxJV7a/qlx0y5ppNV3J9tC1DjIAyLTNNDg==",
+  "_location": "/distruct",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "distruct",
+    "name": "distruct",
+    "escapedName": "distruct",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/distruct/-/distruct-1.0.6.tgz",
+  "_shasum": "0d2eece26657538184ed4c556be8b1b3462f0e77",
+  "_spec": "distruct",
+  "_where": "/home/ec2-user/environment/OpalPortal",
+  "author": {
+    "name": "TylerJFields"
+  },
+  "bugs": {
+    "url": "https://github.com/tylerjfields/distruct/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "aws-sdk": "^2.508.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mime-types": "^2.1.24",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.3"
+  },
+  "deprecated": false,
+  "description": "Build & Deployment View Framework",
+  "homepage": "https://github.com/tylerjfields/distruct#readme",
+  "keywords": [
+    "nodejs",
+    "deployment",
+    "build",
+    "builder",
+    "tools",
+    "ejs",
+    "minimal",
+    "distruct"
+  ],
+  "license": "MIT",
+  "main": "distruct.js",
+  "name": "distruct",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerjfields/distruct.git"
+  },
+  "version": "1.0.6"
+}

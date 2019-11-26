@@ -1,0 +1,8 @@
+<* if (typeof meta == 'object') { 
+    for(let name in meta){
+        var content = meta[name];
+    -*>
+    <meta name="<*= name *>" content="<*= content *>" />
+    <*
+    }
+} -*>

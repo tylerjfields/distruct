@@ -1,0 +1,44 @@
+{
+
+    "delimiter": "*", 
+ 
+    "product": {
+        "name":             "Test Application",
+        "version":          "1.0.0",
+        "description":      "",
+        "author":           "TJ@IOHQ.ORG"
+    },
+
+    "server": {
+        "port":             "3000"
+    },
+
+    "builds": [ 
+        {
+            "name":          "web1",
+            "extensions":    ["css", "js", "html", "json"], 
+            "variables": {
+                "title":     "Web!",
+                "meta": {
+                    "robots": "index, follow"
+                }
+            }
+        }, 
+        {
+            "name":          "web2",
+            "extensions":    ["css", "js", "html", "json"],
+            "variables": {
+                "title":     "A different configuration."
+            }
+        }
+    ],
+    
+    "deployments": [ 
+        {
+            "name":          "s3",
+            "builds":        ["web1", "web2"],
+            "script":        "deploy-s3.js"
+        } 
+    ]
+
+}
